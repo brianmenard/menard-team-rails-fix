@@ -1,16 +1,18 @@
 .main-banner{
-    background-color:#81BDF9;
     background-image: url(app/assets/images/generic-photo.jpg);
     height: 400px;
     text-shadow: 0px 2px 3px #A8D4FF;
+    background-image: url('generic-photo.jpg');
+    background-size: cover;
 }
 
+/**
 .main-banner img{
     z-index: -1;
     position: absolute;
-    max-height: 400px;
-    /**not currently used -- will resize and position image behind text **/
+    width: 100%;
 }
+**/
 
 .left-banner{
     background-color:#F07A5E;
