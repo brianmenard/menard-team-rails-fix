@@ -38,9 +38,11 @@ body{
 **/
 
 .banner{
-    background-color:#F07A5E;
     height: 400px;
-    text-shadow: 0px 2px 3px #555;
+}
+
+.banner img{
+    width: 100%;
 }
 
 .banner-caption{
@@ -55,6 +57,7 @@ body{
 
 .banner-caption p{
     display: block;
+    color:gray;
     padding-left: 50px;
-    border-left: solid thin black;
+    border-left: solid thin gray;
 }
