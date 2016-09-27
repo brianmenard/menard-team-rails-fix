@@ -1,0 +1,14 @@
+.main-banner{
+    background-color:blue;
+    height: 400px;
+}
+
+.left-banner{
+    background-color: yellow;
+    height: 400px;
+}
+
+.right-banner{
+    background-color: red;
+    height: 400px;
+}
