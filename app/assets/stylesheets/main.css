@@ -1,9 +1,27 @@
 .main-banner{
-    background-image: url(app/assets/images/generic-photo.jpg);
-    height: 400px;
-    text-shadow: 0px 2px 3px #A8D4FF;
+    height: 500px;
     background-image: url('generic-photo.jpg');
     background-size: cover;
+}
+
+.main-banner h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 5em;
+    color: white;
+    text-shadow: 0px 2px 2px black;
+    padding-left: 40%;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.main-banner h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3em;
+    color: white;
+    text-shadow: 0px 2px 1px black;
+    padding-left: 40%;
+    padding-top: 5%;
+    text-align: center;
 }
 
 /**
@@ -14,15 +32,13 @@
 }
 **/
 
-.left-banner{
+.banner{
     background-color:#F07A5E;
     height: 400px;
     text-shadow: 0px 2px 3px #555;
 }
 
-.right-banner{
-    background-color:#D9D9D9;
+.banner-caption{
+    background-color: white;
     height: 400px;
-    text-shadow: 0px 2px 3px #555;
 }
-
