@@ -1,14 +1,14 @@
 .main-banner{
-    background-color:blue;
+    background-color:#81BDF9;
     height: 400px;
 }
 
 .left-banner{
-    background-color: yellow;
+    background-color:#F07A5E;
     height: 400px;
 }
 
 .right-banner{
-    background-color: red;
+    background-color:#D9D9D9;
     height: 400px;
 }
