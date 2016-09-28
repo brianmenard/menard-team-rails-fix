@@ -6,12 +6,13 @@ body{
 .main-banner{
     /** negative top margin is to remove gap below navbar **/
     margin-top: -20px;
-    height: 480px;
+    height: 800px;
     background-size: cover;
-    margin-bottom: 20px;
     text-align: center;
-    padding-top: 7.5%;
+    padding-top: 17.5%;
     background-image: url(unpacking-dark.jpg);
+    background-attachment: fixed;
+    background-position: left;
 }
 
 .main-banner .delius{
@@ -24,16 +25,16 @@ body{
 
 .main-banner .bitter{
     font-family: 'Bitter', serif;
-    font-size: 3em;
+    font-size: 4em;
     color: white;
     
 }
 
 .main-banner .pacifico{
     font-family: 'Pacifico', cursive;
-    font-size: 7em;
+    font-size: 8em;
     color: white;
-    /** text-shadow: 2px 2px #5CC6FF; **/
+    text-shadow: 2px 2px #5CC6FF; 
 }
 
 .main-banner .itim{
@@ -43,16 +44,9 @@ body{
     text-shadow: 2px 2px #ff0000;
 }
 
-/**
-.main-banner img{
-    z-index: -1;
-    position: absolute;
-    width: 100%;
-}
-**/
-
 .banner{
     height: 400px;
+    margin-top:20px;
 }
 
 .banner img{
@@ -64,7 +58,6 @@ body{
     font-family: 'Bitter', serif;
     background-color: white;
     height: 400px;
-    text-align: center;
 }
 
 .banner-caption h3{
@@ -91,7 +84,7 @@ body{
 
 .footer{
     text-align: center;
-    border-top: thick solid white;
+    margin-top: 20px;
     height: 100px;
     background-color: gray;
     padding:25px;
