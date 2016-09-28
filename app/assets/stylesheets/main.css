@@ -4,12 +4,14 @@ body{
 }
 
 .main-banner{
+    /** negative top margin is to remove gap below navbar **/
+    margin-top: -20px;
     height: 480px;
     background-size: cover;
     margin-bottom: 20px;
     text-align: center;
     padding-top: 7.5%;
-    background-image: url(unpacking.jpg);
+    background-image: url(unpacking-dark.jpg);
 }
 
 .main-banner .delius{
