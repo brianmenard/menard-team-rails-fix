@@ -13,6 +13,7 @@ body{
     background-image: url(unpacking-dark.jpg);
     background-attachment: fixed;
     background-position: bottom;
+    margin-bottom: 75px;
 }
 
 .main-banner .delius{
