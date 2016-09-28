@@ -1,6 +1,6 @@
 
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Bitter', serif;
 }
 
 .main-banner{
@@ -33,7 +33,7 @@ body{
     font-family: 'Pacifico', cursive;
     font-size: 7em;
     color: white;
-    text-shadow: 2px 2px #5CC6FF;
+    /** text-shadow: 2px 2px #5CC6FF; **/
 }
 
 .main-banner .itim{
@@ -61,6 +61,7 @@ body{
 }
 
 .banner-caption{
+    font-family: 'Bitter', serif;
     background-color: white;
     height: 400px;
     text-align: center;
@@ -71,7 +72,7 @@ body{
     padding: 50px;
 }
 
-.banner-caption .left-border{
+.left-border{
     display: block;
     color:gray;
     padding-left: 50px;
@@ -79,12 +80,13 @@ body{
     border-left: solid thin gray;
 }
 
-.banner-caption .right-border{
+.right-border{
     display: block;
     color:gray;
     padding-left: 50px;
     padding-right: 50px;
     border-right: solid thin gray;
+    
 }
 
 .footer{
