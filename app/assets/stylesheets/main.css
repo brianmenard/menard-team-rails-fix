@@ -12,7 +12,7 @@ body{
     padding-top: 17.5%;
     background-image: url(unpacking-dark.jpg);
     background-attachment: fixed;
-    background-position: left;
+    background-position: bottom;
 }
 
 .main-banner .delius{
@@ -34,7 +34,7 @@ body{
     font-family: 'Pacifico', cursive;
     font-size: 8em;
     color: white;
-    text-shadow: 2px 2px #5CC6FF; 
+    /** text-shadow: 2px 2px #5CC6FF; **/
 }
 
 .main-banner .itim{
