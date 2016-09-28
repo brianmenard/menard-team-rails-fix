@@ -45,6 +45,16 @@ body{
     text-shadow: 2px 2px #ff0000;
 }
 
+.headline-row{
+    text-align: center;
+}
+
+.headline{
+    font-family: 'Pacifico', cursive;
+    font-size: 5em;
+    color: #5CC6FF;
+}
+
 .banner{
     height: 400px;
     margin-top:20px;
@@ -81,6 +91,12 @@ body{
     padding-right: 50px;
     border-right: solid thin gray;
     
+}
+
+.about-us{
+    background-color: #F2FBFF;
+    height:400px;
+    margin-top: 20px;
 }
 
 .footer{
