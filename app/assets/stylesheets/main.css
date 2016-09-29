@@ -35,7 +35,7 @@ body{
     font-family: 'Pacifico', cursive;
     font-size: 8em;
     color: white;
-    /** text-shadow: 2px 2px #5CC6FF; **/
+    text-shadow: 2px 2px #5CC6FF; 
 }
 
 .main-banner .itim{
@@ -55,9 +55,21 @@ body{
     color: #5CC6FF;
 }
 
+/** FOR IMAGES
 .banner{
     height: 400px;
     margin-top:20px;
+}
+
+**/
+
+/** FOR ICONS **/
+
+.banner{
+    height: 400px;
+    margin-top:20px;
+    text-align: center;
+    padding-top: 75px;
 }
 
 .banner img{
