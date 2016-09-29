@@ -55,15 +55,15 @@ body{
     color: #5CC6FF;
 }
 
-/** FOR IMAGES
+/** FOR IMAGES **/
 .banner{
     height: 400px;
     margin-top:20px;
 }
 
-**/
 
-/** FOR ICONS **/
+
+/** FOR ICONS 
 
 .banner{
     height: 400px;
@@ -71,6 +71,7 @@ body{
     text-align: center;
     padding-top: 75px;
 }
+**/
 
 .banner img{
     width: 100%;
@@ -106,7 +107,7 @@ body{
 }
 
 .about-us{
-    background-color: #F2FBFF;
+    background-color: #f2f2f2;
     height:400px;
     margin-top: 20px;
 }
