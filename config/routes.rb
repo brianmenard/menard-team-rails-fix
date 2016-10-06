@@ -2,6 +2,8 @@ Rails.application.routes.draw do
 
 get '/', to: 'application#index'
 
+get '/sales', to: 'application#sales'
+
 end
 
 

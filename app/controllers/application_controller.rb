@@ -7,4 +7,7 @@ class ApplicationController < ActionController::Base
   def index
   end
   
+  def sales
+  end
+  
 end
