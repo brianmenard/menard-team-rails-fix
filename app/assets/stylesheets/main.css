@@ -24,11 +24,13 @@ body{
     /**color: #F07A5E;**/
 }
 
-.main-banner .bitter{
+.bitter{
     font-family: 'Bitter', serif;
     font-size: 4em;
+}
+
+.white{
     color: white;
-    
 }
 
 .main-banner .pacifico{
