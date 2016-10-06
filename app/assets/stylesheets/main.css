@@ -3,6 +3,10 @@ body{
     font-family: 'Bitter', serif;
 }
 
+.center{
+    text-align: center;
+}
+
 .main-banner{
     /** negative top margin is to remove gap below navbar **/
     margin-top: -20px;
@@ -16,6 +20,14 @@ body{
     margin-bottom: 75px;
 }
 
+.sales-banner{
+    height: 400px;
+    background-size: cover;
+    text-align: center;
+    background-image: url("http://completecr.com/wp-content/uploads/2014/07/Ocean-County-custom-home-builder-and-design-firm-Complete-Construction-Remodeling.jpg");
+    margin-bottom: 25px;
+}
+
 .main-banner .delius{
     font-family: 'Delius Swash Caps', cursive;
     font-size: 4em;
@@ -26,6 +38,9 @@ body{
 
 .bitter{
     font-family: 'Bitter', serif;
+}
+
+.main-banner .bitter{
     font-size: 4em;
 }
 
