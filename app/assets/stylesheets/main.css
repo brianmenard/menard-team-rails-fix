@@ -123,6 +123,16 @@ body{
     
 }
 
+.bottom-border{
+    display: block;
+    color:gray;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-bottom: solid thin gray;
+    
+}
+
 .about-us{
     background-color: #f2f2f2;
     height:400px;
