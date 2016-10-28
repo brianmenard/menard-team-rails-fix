@@ -4,6 +4,11 @@ get '/', to: 'application#index'
 
 get '/sales', to: 'application#sales'
 
+get '/coaching', to: 'application#coaching'
+
+get '/coordination', to: 'application#coordination'
+
+
 end
 
 
