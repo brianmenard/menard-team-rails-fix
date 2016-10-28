@@ -10,4 +10,11 @@ class ApplicationController < ActionController::Base
   def sales
   end
   
+  def coaching
+  end
+  
+  def coordination
+  end
+  
+  
 end
