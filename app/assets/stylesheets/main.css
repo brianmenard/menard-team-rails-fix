@@ -17,6 +17,11 @@ body {
     font-weight: 200;
 }
 
+.feedback_quote{
+    font-size: 18px;
+    font-weight: 200;
+}
+
 .raleway_400{
     font-weight: 400;
 }
@@ -106,13 +111,19 @@ body {
 }
 
 .feedback_row{
-    height: 500px;
+    height: 300px;
     padding-top: 50px;
     margin-top: 30px;
     background-image: url('pexels_stairs_dark.jpg');
     background-position: right 20px bottom 10px;
     background-repeat: no-repeat;
     width: 100vw;
+}
+
+.feedback_box{
+    height: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .white{
