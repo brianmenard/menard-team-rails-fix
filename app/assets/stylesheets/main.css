@@ -53,7 +53,6 @@ body {
 .floating_text{
     display: block;
     position: absolute;
-    width: 100%;
     color: #fff;
     left: 80px;
     top: 100px;
@@ -66,7 +65,6 @@ body {
 .floating_text_lower{
     display: block;
     position: absolute;
-    width: 100%;
     color: #fff;
     left: 87px;
     top: 150px;
@@ -150,7 +148,6 @@ body {
     background-image: url('pexels_stairs_dark.jpg');
     background-position: right 20px bottom 10px;
     background-repeat: no-repeat;
-    width: 100vw;
 }
 
 .feedback_box{
@@ -193,19 +190,6 @@ a.teal:hover{
 .heart{
     color: red;
 }
-
-/**
-MEDIA QUERY TO REPOSITION BRAND IN NAVBAR ON SMALL DEVICES
-**/
-
-@media (max-width: 768px) {
-      .navbar-brand {
-          transform: translateX(-50%);
-          left: 50%;
-          position: absolute;
-        } 
-    }
-    
     
     
 /** FOR TESTING PURPOSES **/
