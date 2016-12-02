@@ -24,6 +24,7 @@ body {
 
 .raleway_400{
     font-weight: 400;
+    font-family: 'Raleway', sans-serif;
 }
 
 .floating_text{
@@ -129,3 +130,15 @@ body {
 .white{
     color: white;
 }
+
+/**
+MEDIA QUERY TO REPOSITION BRAND IN NAVBAR ON SMALL DEVICES
+**/
+
+@media (max-width: 768px) {
+      .navbar-brand {
+          transform: translateX(-50%);
+          left: 50%;
+          position: absolute;
+        } 
+    }
