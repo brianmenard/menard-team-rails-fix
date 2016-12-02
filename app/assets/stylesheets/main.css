@@ -92,6 +92,11 @@ body {
     padding-top: 40px;
 }
 
+.padded_bottom{
+    padding-bottom: 40px;
+}
+
+
 .double_outline{
     border:2px thin #f1f1f1;
     outline-color: #f1f1f1;  
@@ -148,8 +153,27 @@ body {
     background-color: #fcfbf9;
 }
 
-.material-icons.icon_md{
-    font-size: 64px;
+.dark_grey_bg{
+    background-color: #303030;
+}
+
+.undecorated{
+    text-decoration: none;
+    color: #737373;
+}
+
+.undecorated:hover{
+    text-decoration: underline;
+    color: #1abb9c;
+}
+
+.teal{
+    color: #1abb9c;
+}
+
+a.teal:hover{
+    color: #1abb9c;
+    text-decoration: underline;
 }
 
 /**
