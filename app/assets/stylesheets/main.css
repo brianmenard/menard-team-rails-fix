@@ -2,6 +2,20 @@ body {
   overflow-x: hidden;
 }
 
+.navbar-brand {
+          transform: translateX(-50%);
+          left: 50%;
+          position: absolute;
+          border-bottom: thin solid #737373;
+        } 
+        
+.navbar-center {
+          transform: translateX(-50%);
+          left: 50%;
+          top:60px;
+          position: absolute;
+        } 
+
 .body_text {
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;

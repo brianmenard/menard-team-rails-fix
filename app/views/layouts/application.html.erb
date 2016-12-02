@@ -30,7 +30,7 @@
               <span class="icon-bar"></span>
             </button>
             -->
-            <a class="navbar-brand raleway_400">The Menard Team</a>
+            <a class="navbar-brand raleway_400" href='#top'>The Menard Team</a>
           </div>
        <!-- LEFT NAVBAR 
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -52,13 +52,12 @@
             </ul>
             
             -->
-            <ul class="nav navbar-nav navbar-right hidden-xs">
+            <ul class="nav navbar-nav navbar-center hidden-xs">
                 <ul class="nav navbar-nav">
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Testimonials</a></li>
-                  <li><a href="#">Our Process</a></li>
-                  <li><a href="#">Meet the Team</a></li>
-                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#services">Services</a></li>
+                  <li><a href="#testimonials">Testimonials</a></li>
+                  <li><a href="#meet">Meet the Team</a></li>
+                  <li><a href="#contact">Contact Us</a></li>
                 </ul>
               </ul>
         </div><!-- /.container-fluid -->
@@ -71,7 +70,7 @@
       <div class='row padded dark_grey_bg'>
         <br><br>
         <div class='container'>
-             <div class='col-md-3'>
+             <div class='col-xs-3'>
               <h1 class='upper details_header white'>About Us</h1>
               <p class='body_text white'>
                 We are a small, local real estate business serving the Southern New
@@ -82,8 +81,8 @@
                 and sellers, and also offer coaching and transaction coordination services.
               </p>
             </div>
-            <div class='col-md-1'></div>
-            <div class='col-md-4'>
+            <div class='col-xs-1'></div>
+            <div class='col-xs-4'>
               <h1 class='upper details_header white'>Get In Touch</h1>
               <p class='body_text white'>
                 If you would like to work with us, or if you just have a few questions,
@@ -95,8 +94,8 @@
                 <a href='#' class='teal'>hello@themenardteam.com</a>
               </p>
             </div>
-            <div class='col-md-1'></div>
-            <div class='col-md-3'>
+            <div class='col-xs-1'></div>
+            <div class='col-xs-3'>
               <h1 class='upper details_header white'>Find us on social media</h1>
               <p class='body_text white'>
                 <a href='#' class='teal'>Facebook</a>
@@ -115,5 +114,21 @@
       </div>
     </div>
     
+    <script>
+      $(function() {
+        $('a[href*="#services"], a[href*="#testimonials"], a[href*="#meet"], a[href*="#contact"], a[href*="#top"]:not([href="#"])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html, body').animate({
+                scrollTop: target.offset().top - 275
+              }, 1000);
+              return false;
+            }
+          }
+        });
+      });
+    </script>
   </body>
 </html>
