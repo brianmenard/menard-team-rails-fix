@@ -176,6 +176,10 @@ a.teal:hover{
     text-decoration: underline;
 }
 
+.heart{
+    color: red;
+}
+
 /**
 MEDIA QUERY TO REPOSITION BRAND IN NAVBAR ON SMALL DEVICES
 **/
